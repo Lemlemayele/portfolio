@@ -1,0 +1,49 @@
+.projects {
+    grid-column: center-start / center-end;
+    margin: 15rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem;
+    
+}
+.project {
+    background-color: $color-grey-light-1;
+    
+    &__img {
+        width: 100%;
+    }
+
+    &__name {
+        background-color: $color-secondary;
+        font-family: $font-display;
+        justify-self: center;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 400;  
+        padding: 1.2rem;
+        color: #fff;
+        width: 60%;
+        margin: auto;
+        transform: translateY(-50%);    
+    }
+    &__btn {
+        width: 100%;
+    }
+
+    .info {
+        font-size: 1.6rem;
+        
+    }
+}
+
+
+.portfolio {
+    display: grid;
+    grid-column: 1 /-1;
+    padding-top: 10rem;
+    margin-bottom: -8rem;
+    justify-self: center;
+    justify-content: center;
+   
+}
