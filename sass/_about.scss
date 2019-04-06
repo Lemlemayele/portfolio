@@ -2,9 +2,9 @@
     &__image {
         background-color: $color-primary;
         grid-column: full-start / col-end 4;
-        background-image: linear-gradient(rgba($color-primary, .5), 
-            rgba($color-primary, .5)), 
-            url(../img/skyline.jpg);
+        background-image: linear-gradient(rgba($color-primary, .2), 
+            rgba($color-primary, .2)), 
+            url(../img/pat.jpg);
         background-size: cover;
 
         display: grid;
@@ -50,7 +50,7 @@
         font-size: 1.5rem;
         font-style: italic;
         margin-bottom: 4rem;
-        filter: brightness(110%);
+        //font-weight: 400;
         color: $color-grey-dark-1;
     }
 }

@@ -80,9 +80,9 @@
 
 #particles-js{
     //background: black;
-    width: 100vw;
+    width: 60vw;
     height: 20vh;
-    margin-top: 0;
+    margin: auto;
 
     @media screen and (max-width: $bp-small) {
     width: auto; 
